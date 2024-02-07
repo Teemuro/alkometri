@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>DOM Alkometri Harjoitus</title>
+</head>
+<body>
+    <div id="container">
+        <h3>Alcometer</h3>
+        <div>
+            <label>Weight</label>
+            <input type="number"/>
+        </div>
+    </div>
+    <div>
+        <label>Time</label>
+        <select id="time">
+            <option value="1">1 hour</option>
+            <option value="2">2 hours</option>
+            <option value="3">3 hours</option>
+            <option value="4">4 hours</option>
+            <option value="5">5 hours</option>
+        </select>
+    </div>
+    <div>
+        <label>Bottles</label>
+        <select id="bottle">
+            <option value="1">1 bottle</option>
+            <option value="2">2 bottles</option>
+            <option value="3">3 bottles</option>
+            <option value="4">4 bottles</option>
+            <option value="5">5 bottles</option>
+        </select>
+    </div>
+    <div>
+        <label>Gender</label>
+        <input type="radio" name="gender" value="male" checked/><label>Male</label>
+        <input type="radio" name="gender" value="female" checked/><label>Female</label>
+    </div>
+    <div>
+        <label>Promilles</label>
+        <output></output>
+    </div>
+    <div>
+        <button type="button" id="calculate">Calculate</button>
+    </div>
+    <script src="./js/functions.js"></script>   
+</body>
+</html>
